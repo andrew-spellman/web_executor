@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Executor</title>
+    <link id="pagestyle" rel="stylesheet" href="dark.css"></head>
+  <body>
+    <p id="executor"></p>
+    <br>
+    <text id="colText"></text>
+    <button onclick="changeCols(-1)">&or;</button>
+    <button onclick="changeCols(1)">&and;</button>
+    <input id="colRange" onchange="setCols(value)" type="range" min="10" max="80" value="24">
+    <br>
+    <br>
+    <text id="rowText"></text>
+    <button onclick="changeRows(-1)">&or;</button>
+    <button onclick="changeRows(1)">&and;</button>
+    <input id="rowRange" onchange="setRows(value)" type="range" min="10" max="96" value="40">
+    <br>
+    <br>
+    <text id="fontSizeText"></text>
+    <button onclick="changeFontSize(-1)">&or;</button>
+    <button onclick="changeFontSize(1)">&and;</button>
+    <input id="fontSizeRange" onchange="setFontSize(value)" type="range" min="8" max="32" value="16">
+    <br>
+    <br>
+    <button onclick="toggleHighContrast()">Toggle High Contrast</button>
+    <script src="executor.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

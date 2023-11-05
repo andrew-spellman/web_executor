@@ -1,0 +1,16 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#executor {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #AAAAAA;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  font-family: monospace, monospace;
+  white-space: pre-line;
+}
